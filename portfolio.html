@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #024950;
+      color: #fffdff;
+    }
+
+    header {
+      background: #003135;
+      color: #fffdff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    .bio {
+      margin: 0%;
+      background: #0fa4af;
+      color:#fffdff ;
+    }
+
+    .projects {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      
+    }
+
+    .project {
+      background: #0fa4af;
+      color:#fffdff ;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: inline-block;
+      flex: 40%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      
+    }
+
+    a:hover {
+      text-decoration: underline;
+     
+    }
+    .project:hover{
+       
+        transform: scale(1.5);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Your Title or Profession</p>
+</header>
+
+<div class="container">
+  <div class="bio">
+    <h2>About Me</h2>
+    <p>This is a short bio about you — your background, skills, and passions.</p>
+  </div>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Brief description of what this project is about. Include tools, goals, or outcomes.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Brief description of this second project.</p>
+      <a href="#">View Project</a>
+    </div>
+    
+    <!-- Add more project blocks here -->
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>LinkedIn / GitHub / etc.</p>
+    <p><a href="cv/your-cv.pdf" download target="_blank">Download My CV</a></p>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Your Name</p>
+</footer>
+
+</body>
+</html>
